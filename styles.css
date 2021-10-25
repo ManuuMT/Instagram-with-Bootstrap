@@ -1,0 +1,51 @@
+body{
+    background-color: #e2e2e2;
+}
+
+.nav-izquierda{
+	padding-left: 10%;
+}
+
+.nav-derecha{
+	padding-right: 10%;
+}
+
+img {
+    width: 450px; 
+    margin: 1px;
+    height: 200px;
+    
+}
+
+.nav-pills {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	justify-content: center;
+}
+
+.container-btn {
+	background-color: #fff;
+}
+
+.miCarta{
+	margin-bottom: 3%;
+}
+
+.picture{
+	text-align: center;
+}
+
+.num, .config {
+    text-align: right; /*esto funciona*/ 
+    display: block; /* <<-- solo porque eso está asi*/
+}
+
+
+.botonesModal{
+ margin-top: 2%;
+}
+
+.nav-link.active, .show>.nav-pills .nav-link{
+    background-color: dimgray !important;
+}
+
