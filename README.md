@@ -1,26 +1,49 @@
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) Instagram Photo Feed (with Bootstrap)
+# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) Instagram Photo Feed (con Bootstrap)
+
+
+## Acerca del proyecto
+
+
+En este repositorio encontrarás un proyecto realizado en 4Geeks Academy que emula de manera sencilla algunas partes de la interfaz de Instagram.
+
+
+## Tecnologías utilizadas en el proyecto
+
+
+![](https://i.imgur.com/XV6nKqE.jpg)
+
+
+## 1. ¿Cómo comenzar?
+
+
+- Opción nº1: Haz click en el botón de abajo para abrir este repositorio en tu Gitpod.
+
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/ManuuMT/Instagram-with-Bootstrap.git)
 
-The most basic boilerplate for any 4Geeks Academy student using the [gitpod.io](gitpod.io) coding editor.
 
-[![How to open html/css preview of my project in gitpod](https://github.com/4GeeksAcademy/Templates-Boilerplates/blob/master/assets/hello-html-intro.png?raw=true)](https://youtu.be/dfbDCMu_p-0)
-
-## What to do next?
-
-Create an `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+- Opción nº2: Puedes clonar este repositorio desde la consola de Gitpod con el siguiente comando:
 
 ```sh
-$ pip3 install flask && python3 server.py
+git clone https://github.com/ManuuMT/Instagram-with-Bootstrap.git
 ```
 
-- You can create as many HTML files as you want
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+## 2. Iniciar el proyecto
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
+
+![](https://i.imgur.com/UyOwY44.jpg)
+
+
+
+Para iniciar un "live web server" debes ir a la consola de Gitpod e ingresar el siguiente comando: 
+
+
+```sh
+pip3 install flask && python3 server.py
 ```
+
+
+> Consejo: no olvides que antes de ingresar ese comando debes de estar situado en la carpeta del proyecto (en la consola).
+
+
+
