@@ -2,6 +2,8 @@ body{
     background-color: #e2e2e2;
 }
 
+
+/* Barra de Navegacion */ 
 .nav-izquierda{
 	padding-left: 10%;
 }
@@ -10,18 +12,30 @@ body{
 	padding-right: 10%;
 }
 
+.botonesModal{
+	margin-top: 2%;
+   }
 
 
+/* Div que contiene los Pills */  
+.container-btn {
+	background-color: #fff;
+}
+
+
+/* Atributos de los Pills */ 
 .nav-pills {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	justify-content: center;
 }
 
-.container-btn {
-	background-color: #fff;
+.nav-link.active, .show>.nav-pills .nav-link{
+    background-color: dimgray !important;
 }
 
+
+/* Post individual (Instagram's Feed) */
 .miCarta{
 	margin-bottom: 3%;
 }
@@ -30,17 +44,7 @@ body{
 	text-align: center;
 }
 
-.num, .config {
+.config {
     text-align: right; /*esto funciona*/ 
     display: block; /* <<-- solo porque eso está asi*/
 }
-
-
-.botonesModal{
- margin-top: 2%;
-}
-
-.nav-link.active, .show>.nav-pills .nav-link{
-    background-color: dimgray !important;
-}
-
